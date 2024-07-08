@@ -19,9 +19,8 @@ sys.path.append(str(Path(".").resolve()))
 
 # -- Project information -----------------------------------------------------
 
-project = "PyData Theme"
-copyright = "2019, PyData Community"
-author = "PyData Community"
+project = "Developer Documenation"
+author = "Karen Clarke"
 
 # -- General configuration ---------------------------------------------------
 
@@ -117,8 +116,6 @@ copybutton_selector = ":not(.prompt) > div.highlight pre"
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = "pydata_sphinx_theme"
-html_logo = "_static/logo.svg"
-html_favicon = "_static/logo.svg"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""  # to reveal the build date in the pages meta
 
@@ -144,56 +141,12 @@ elif version_match == "stable":
     version_match = f"v{release}"
 
 html_theme_options = {
-    "external_links": [
-        {
-            "url": "https://pydata.org",
-            "name": "PyData",
-        },
-        {
-            "url": "https://numfocus.org/",
-            "name": "NumFocus",
-        },
-        {
-            "url": "https://numfocus.org/donate",
-            "name": "Donate to NumFocus",
-        },
-    ],
-    "header_links_before_dropdown": 4,
-    "icon_links": [
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/PyData",
-            "icon": "fa-brands fa-twitter",
-        },
-        {
-            "name": "GitHub",
-            "url": "https://github.com/pydata/pydata-sphinx-theme",
-            "icon": "fa-brands fa-github",
-        },
-        {
-            "name": "PyPI",
-            "url": "https://pypi.org/project/pydata-sphinx-theme",
-            "icon": "fa-custom fa-pypi",
-        },
-        {
-            "name": "PyData",
-            "url": "https://pydata.org",
-            "icon": "fa-custom fa-pydata",
-        },
-    ],
-    # alternative way to set twitter and github header icons
-    # "github_url": "https://github.com/pydata/pydata-sphinx-theme",
-    # "twitter_url": "https://twitter.com/PyData",
-    "logo": {
-        "text": "PyData Theme",
-        "image_dark": "_static/logo-dark.svg",
-    },
+    "header_links_before_dropdown": 2,
     "use_edit_page_button": True,
     "show_toc_level": 1,
     "navbar_align": "left",  # [left, content, right] For testing that the navbar items align properly
     # "show_nav_level": 2,
     "announcement": "https://raw.githubusercontent.com/pydata/pydata-sphinx-theme/main/docs/_templates/custom-template.html",
-    "show_version_warning_banner": True,
     "navbar_center": ["version-switcher", "navbar-nav"],
     # "navbar_start": ["navbar-logo"],
     # "navbar_end": ["theme-switcher", "navbar-icon-links"],
