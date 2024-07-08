@@ -124,6 +124,7 @@ html_theme_options = {
     "header_links_before_dropdown": 1,
     "use_edit_page_button": True,
     "show_toc_level": 1,
+    "show_prev_next": False,
     "navbar_align": "left",  # [left, content, right] For testing that the navbar items align properly
     # "show_nav_level": 2,
     "navbar_center": ["navbar-nav"],
