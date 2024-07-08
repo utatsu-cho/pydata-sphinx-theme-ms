@@ -146,19 +146,7 @@ html_sidebars = {
         "custom-template",
     ],  # This ensures we test for custom sidebars
     "examples/no-sidebar": [],  # Test what page looks like with no sidebar items
-    "examples/persistent-search-field": ["search-field"],
-    # Blog sidebars
-    # ref: https://ablog.readthedocs.io/manual/ablog-configuration-options/#blog-sidebars
-    "examples/blog/*": [
-        "ablog/postcard.html",
-        "ablog/recentposts.html",
-        "ablog/tagcloud.html",
-        "ablog/categories.html",
-        "ablog/authors.html",
-        "ablog/languages.html",
-        "ablog/locations.html",
-        "ablog/archives.html",
-    ],
+    "examples/persistent-search-field": ["search-field"]
 }
 
 html_context = {
