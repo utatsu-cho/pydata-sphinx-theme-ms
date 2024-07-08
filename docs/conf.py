@@ -118,6 +118,7 @@ copybutton_selector = ":not(.prompt) > div.highlight pre"
 html_theme = "pydata_sphinx_theme"
 html_sourcelink_suffix = ""
 html_last_updated_fmt = ""  # to reveal the build date in the pages meta
+html_title = 'Developer Documentation'
 
 html_theme_options = {
     "header_links_before_dropdown": 1,
