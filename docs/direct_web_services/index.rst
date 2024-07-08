@@ -1,2 +1,2 @@
-Direct Web Serivces
+Direct Web Services
 =======================
