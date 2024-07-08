@@ -160,10 +160,6 @@ html_theme_options = {
         "**/*": ["page-toc", "edit-this-page", "sourcelink"],
         "examples/no-sidebar": [],
     },
-    "switcher": {
-        "json_url": json_url,
-        "version_match": version_match,
-    },
     # "back_to_top_button": False,
 }
 
