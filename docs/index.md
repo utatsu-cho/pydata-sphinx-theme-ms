@@ -7,9 +7,9 @@ myst:
 html_theme.sidebar_secondary.remove: true
 ---
 
-# The PyData Sphinx Theme
+# Developer Documentation
 
-A clean, Bootstrap-based Sphinx theme by and for [the PyData community](https://pydata.org).
+Guides and API reference documentation.
 
 ```{gallery-grid}
 :grid-columns: 1 2 2 3
@@ -26,10 +26,6 @@ A clean, Bootstrap-based Sphinx theme by and for [the PyData community](https://
   content: "CSS and UI support for [Jupyter extensions](examples/execution) and [PyData execution outputs](examples/pydata.ipynb)."
 - header: "{fas}`lightbulb;pst-color-primary` Example Gallery"
   content: "See [our gallery](examples/gallery.md) of projects that use this theme."
-```
-
-```{seealso}
-If you are looking for a Sphinx theme that puts all of its sub-pages in the sidebar, the [Sphinx Book Theme](https://sphinx-book-theme.readthedocs.io/) has a similar look and feel, and [Furo](https://pradyunsg.me/furo/quickstart/) is another excellent choice. You can also see [the Sphinx Themes Gallery](https://sphinx-themes.org) for more ideas.
 ```
 
 ## User Guide
