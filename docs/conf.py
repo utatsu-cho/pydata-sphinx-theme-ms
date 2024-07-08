@@ -19,7 +19,7 @@ sys.path.append(str(Path(".").resolve()))
 
 # -- Project information -----------------------------------------------------
 
-project = "Developer Documenation"
+project = "Developer Documentation"
 author = "Karen Clarke"
 
 # -- General configuration ---------------------------------------------------
