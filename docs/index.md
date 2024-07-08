@@ -14,7 +14,7 @@ Guides and API reference documentation.
 ```{toctree}
 :maxdepth: 2
 
-direct-web-services/index
-api-library/index
+direct_web_services/index
+api_library/index
 ```
 
