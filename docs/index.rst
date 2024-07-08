@@ -24,6 +24,6 @@ Guides and API reference documentation.
   :maxdepth: 3
   :titlesonly:
 
-  api_reference/index
+  api_library/index
   platform_services/index
 
